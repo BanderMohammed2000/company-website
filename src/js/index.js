@@ -20,7 +20,6 @@ $(function () {
   );
 
   var pathname = window.location.pathname.split("/").pop(); //إحضار المسار المتواجدين فيه
-  console.log(pathname);
   $('.navbar-nav > li > a[href="./' + pathname + '"]')
     .parent()
     .addClass("active");

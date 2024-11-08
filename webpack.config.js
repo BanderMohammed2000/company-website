@@ -15,7 +15,7 @@ module.exports = {
   entry: "./src/js/index.js",
   // المخرج الذي سيتم عمله عند تشغل npm run dev
   output: {
-    publicPath: "/",
+    publicPath: "",
     // اسم مجلد التحزيم
     path: path.resolve(__dirname, "build"),
     // اسم الملف

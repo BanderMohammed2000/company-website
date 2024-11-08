@@ -154,6 +154,9 @@ module.exports = {
     }),
 
     // استدعينا الاضافة اللي عرفناها فوق
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      // هنا قم بتحديد مسار الملف المطلوب
+      filename: "css/main.css", // سيتم حفظ main.css داخل مجلد css
+    }),
   ],
 };
